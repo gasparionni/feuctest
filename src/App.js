@@ -9,6 +9,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <Welcome/>
+          <Adios/>
         </header>
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
@@ -24,6 +25,13 @@ class Welcome extends Component{
   render(){
     return(
       <h1 className="App-title">{welcome}</h1>
+    )
+  }
+}
+class Adios extends Component{
+  render(){
+    return(
+      <p>Adios</p>
     )
   }
 }
