@@ -18,10 +18,12 @@ class App extends Component {
   }
 }
 
+const welcome = "Welcome to React"
+
 class Welcome extends Component{
   render(){
     return(
-      <h1 className="App-title">Welcome to react </h1>
+      <h1 className="App-title">{welcome}</h1>
     )
   }
 }
